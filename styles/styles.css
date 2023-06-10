@@ -25,7 +25,7 @@
     color: black;
 }
 .main{
-    background: no-repeat url(./img/hm.png);
+    background-image: no-repeat url(./img/hm.png);
     background-size: cover;
     height: 100vh;
     width: 100%;
