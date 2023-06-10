@@ -5,12 +5,16 @@
 }
 .navbar-brand{
     font-size: 2rem;
-    color: palevioletred;
+    margin-top: 10;
+    margin-left: 10px;
+    color: rgb(215, 101, 139);
+    font-family: 'Grand Hotel', cursive;
 }
 .navbar-brand:hover{
     color: palevioletred;
 }
 .nav-link{
+    margin-top: 10;
     margin-right: 5px; 
     margin-left: 5px; 
     color: black;
