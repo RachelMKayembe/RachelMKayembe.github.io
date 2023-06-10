@@ -32,16 +32,18 @@
     background-position: 50% 50%;
 }
 .main h1{
-    font-size: 4rem;
-    font-weight: 700;
+    font-size: 6rem;
+    font-weight: 800;
     font-family: 'Frank Ruhl Libre';
 
 }
 btn1{
     height: 45px;
     width: 35%;
-    border-color: white;
+    border: none;
     outline: none;
     background-color: black;
-    color: rgb(199, 56, 104);;
+    color: rgb(199, 56, 104);
+    font-weight: 700;
+    border-radius: 60px;
 }
