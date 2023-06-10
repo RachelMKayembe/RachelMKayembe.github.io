@@ -11,10 +11,10 @@
     color: palevioletred;
 }
 .nav-link{
-    margin-right: 10px; 
-    margin-left: 10px; 
+    margin-right: 15px; 
+    margin-left: 15px; 
     color: black;
-    background-color: greenyellow;
+    background-color: #B7C765;
     text-transform: uppercase;
 }
 .nav-link:hoverf{
