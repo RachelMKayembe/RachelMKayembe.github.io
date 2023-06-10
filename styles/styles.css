@@ -24,14 +24,14 @@
 .nav-link:hoverf{
     color: black;
 }
-.main{
+.so{
     background: url(./img/bsmile.jpeg)no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
     background-position: 50% 50%;
 }
-.main h1{
+.so h1{
     font-size: 6rem;
     font-weight: 800;
     font-family: 'Frank Ruhl Libre';
