@@ -25,6 +25,7 @@
     color: black;
 }
 .so{
+    background-color: blueviolet;
     background-image: url("girls.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,3 +53,4 @@
     background-color: black;
 
 }
+

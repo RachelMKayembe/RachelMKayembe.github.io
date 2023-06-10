@@ -1,8 +1,8 @@
-const navLinkEls = document. querySelectorA11('.nav-link');
+const navLinkEls = Document.querySelectorAll('.nav-link');
 const windowPathname = window.location.pathname;
 
-navLinkEls.forEach(navLinkEl=>{
-    if (navLinkEl.href.includes (windowPathname)) {
+navLinkEls.forEach(navLinkEl => {
+    if (navLinkEl.href.includes(windowPathname)) {
     navLinkEl.classList.add('active');
     }
 });  
