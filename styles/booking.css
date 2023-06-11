@@ -3,15 +3,71 @@
     padding: 0;
 }
 body{
-    background-image: url(pink.png);
+    background-color: black;
     background-position: center;
     background-size: auto;
 }
+
 #form{
     background-color: #000;
     height:400px;
-    width:800px;
+    width:950px;
+    border-style: solid;
     margin: auto;
     margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 10px;
     opacity:0.7;
+}
+
+#first-elem{
+    border:none;
+    width:400px;
+    margin-top: 23px;
+    position: absolute;
+    margin-left: 38px;
+}
+
+#content{
+    border: 1px solid #fff;
+    margin:10px;
+    margin-left: 8px;
+    padding:5px;
+}
+#content #input-group{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+::placeholder{
+    color:#fff;
+}
+.fa{
+    display:inline-block;
+    color: white;
+    border-right:1px solid black;
+    padding:8px;
+    margin-left: 8px;
+}
+
+#second-elem{
+    border:none;
+    width:400px;
+    margin-top: 40px;
+    margin-left:500px;
+    
+}
+#submit-btn{
+    margin-top: 30px;
+    margin-left: 200px;
+    background: transparent;
+    color:#fff;
+    width:150px;
+    border:1px solid rgb(209, 49, 102);
+    outline:none;
+    padding:10px;
+    font-size: 20px;
 }

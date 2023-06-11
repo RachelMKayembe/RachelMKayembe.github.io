@@ -46,13 +46,101 @@
           </div>
         </div>
     </nav>
-
+    
+      
+    <div id="infoplus" style="text-align: center; margin-top: 20px; background-color: lightyellow;">
+        <p style="font-weight: bold;">By default the Half Braided Style, Knowtless Braids, Faux locs Style, and twist will be provided in mid back length. Waist length can be added by preference.</p> 
+    </div>
+    
     <div class="container">
-        backgroud
         <form class="form group">
             <div id="form">
-                <h1 class="text-white text-center">BOOKING NOW</h1>
-                
+                <h1 class="text-white text-center" style="margin-top: 30px;">BOOKING NOW</h1>
+
+                <div id="first-elem">
+
+                    <div id="content">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="First name">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="number" id="input-group" placeholder="Phone number">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="Date (YYYY-MM-DD)">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id = "input-group" style="background-color: black;">
+                            <option value="" selected="selected">Select a service...</option>
+                            <optgroup label="Dreads">
+                              <option value="D1">New Dreads</option>
+                              <option value="D22">Dreads Retwist</option>
+                            </optgroup>
+                            <optgroup label="Feed In Cornrows">
+                              <option value="C1">2 cornwors </option>
+                              <option value="C2">4 cornwors</option>
+                              <option value="C3">6 cornwors</option>
+                              <option value="C4">10 cornwors</option>
+                            </optgroup>
+                            <optgroup label="Half Braided Style">
+                              <option value="H1">Fulani Braids Small </option>
+                              <option value="H2">Fulani Braids Medium </option>
+                            </optgroup>
+                            <optgroup label="Knotless braids">
+                              <option value="K1">Small Knotless braids </option>
+                              <option value="K2">Medium Knotless braids</option>
+                              <option value="K3">Large Knotless braids </option>
+                            </optgroup>
+                            <optgroup label="Faux Locs Style">
+                                <option value="F1">Soft faux faux locs </option>
+                                <option value="F2">Butterfly faux locs </option>
+                              </optgroup>
+                            <optgroup label="Twist">
+                                <option value="T1">Single Braids </option>
+                                <option value="T2">Single Twist </option>
+                              </optgroup>
+                          </select>
+
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="length" name="Waist length" style="margin-left: 10px;">
+                        <label for="length" style="color: #B09090; font-weight: bold;">Waist length – CA$20 (optional)</label>
+                    </div>
+
+                </div>
+
+                <div id="second-elem">
+
+                    <div id="content">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="Last name">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="email" id="input-group" placeholder="Email">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: black;">
+                            <option value=""> Select a stylist</option>
+                            <option value="">Maria </option>
+                            <option value="">Alyea</option>
+                            <option value="">Jonathan</option>
+                            <option value="">Mark</option>
+                        </select>
+                    </div>
+
+
+                <button type="submit" value="Submit" id="submit-btn">Book Now</button>
 
             </div>
         </form>
