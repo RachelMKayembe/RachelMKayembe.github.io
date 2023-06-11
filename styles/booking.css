@@ -33,7 +33,55 @@ body{
     margin-left: 8px;
     padding:5px;
 }
-#content #input-group{
+#content #firstname{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+#content #phone{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+#content #datebook{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+#content #selectService{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+#content #lastName{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+#content #emailAd{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+#content #pickStylist{
     border:none;
     outline:none;
     background: transparent;

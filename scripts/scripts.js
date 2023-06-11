@@ -6,3 +6,15 @@ navLinkEls.forEach(navLinkEl => {
     navLinkEl.classList.add('active');
     }
 });  
+
+function submitBooking(){
+    var firstName = document.getElementById('firstname').value;
+    var phoneNum = document.getElementById('phone').value;
+    var pickedDate = document.getElementById('datebook').value;
+    var delService = document.getElementById('selectService').value;
+    var lastName = document.getElementById('lastName').value;
+    var emailAdress = document.getElementById('emailAd').value;
+    var stylist = document.getElementById('pickStylist').value;
+  
+    window.alert("Thank you " + firstName + " for booking with " + stylist + "... A confirmation Email has been sent to: " + emailAdress);
+  }
