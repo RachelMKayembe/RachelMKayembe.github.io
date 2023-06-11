@@ -158,13 +158,13 @@
         // //     window.alert("Thank you " + firstName + " for booking with " + stylist + "... A confirmation Email has been sent to: " + emailAdress);
         // //   } -->
     <script>
-        const firstName = document.getElementById('firstname')
-        const emailAdress = document.getElementById('emailAd')
-        const pickedDate = document.getElementById('datebook')
-        const stylist = document.getElementById('pickStylist')
+        const firstName = booknow.getElementById('firstname')
+        const emailAdress = booknow.getElementById('emailAd')
+        const pickedDate = booknow.getElementById('datebook')
+        const stylist = booknow.getElementById('pickStylist')
 
         function displayMsg(){
-            window.alert("Thank you " + firstName.value + " for booking with " + stylist + "... A confirmation Email has been sent to: " + emailAdress);
+            alert("Thank you " + firstName.value + " for booking with " + stylist + "... A confirmation Email has been sent to: " + emailAdress);
         }
         button1.addEventListener(click, displayMsg)
 
