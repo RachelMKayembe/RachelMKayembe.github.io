@@ -113,7 +113,7 @@
 
                     <div>
                         <input type="checkbox" id="length" name="Waist length" style="margin-left: 10px;">
-                        <label for="length" style="color: #B09090; font-weight: bold;">Waist length – CA$20 (optional)</label>
+                        <label for="length" style="color: #872013; font-weight: bold; background-color: rgb(223, 221, 88);">Waist length –- CA$20 (optional)</label>
                     </div>
 
                 </div>
@@ -139,14 +139,36 @@
                             <option value="">Jonathan</option>
                             <option value="">Mark</option>
                         </select>
-                    </div>
-
-
-                <button type="submit" value="Submit" id="submit-btn" onclick="submitBooking()">Book Now</button>
+                    </div>    
+                <a href="about.html" style="margin-left: 10px;"> Take a look at our team</a>
+                <button type="submit" value="Submit" id="button1" onclick="submitBooking()">Book Now</button>
 
             </div>
         </form>
     </div>
+    <!-- // // function submitBooking(){
+        // //     const firstName = document.getElementById('firstname').value;
+        // //     var phoneNum = document.getElementById('phone').value;
+        // //     var pickedDate = document.getElementById('datebook').value;
+        // //     var delService = document.getElementById('selectService').value;
+        // //     var lastName = document.getElementById('lastName').value;
+        // //     var emailAdress = document.getElementById('emailAd').value;
+        // //     var stylist = document.getElementById('pickStylist').value;
+          
+        // //     window.alert("Thank you " + firstName + " for booking with " + stylist + "... A confirmation Email has been sent to: " + emailAdress);
+        // //   } -->
+    <script>
+        const firstName = document.getElementById('firstname')
+        const emailAdress = document.getElementById('emailAd')
+        const pickedDate = document.getElementById('datebook')
+        const stylist = document.getElementById('pickStylist')
+
+        function displayMsg(){
+            window.alert("Thank you " + firstName.value + " for booking with " + stylist + "... A confirmation Email has been sent to: " + emailAdress);
+        }
+        button1.addEventListener(click, displayMsg)
+
+    </script>
 
   </body>
 </html>
