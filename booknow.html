@@ -22,7 +22,7 @@
     <script src="scripts/script.js"></script>
 
   </head>
-  <body style="background-image: url('pink.png'); background-size: cover; background-position: bottom 50px;">
+  <body style="background-image: url('img/pink.png'); background-size: cover; background-position: bottom 50px;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: white; margin-bottom: -21px;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">The Kays Beauty
@@ -65,7 +65,8 @@
         <p style="font-weight: bold;">By default the Half Braided Style, Knowtless Braids, Faux locs Style, and twist will be provided in mid back length. Waist length can be added by preference.</p> 
     </div>
 
-    <div style="font-family: Frank Ruhl Libre; margin-left: 40px;">
+    <div style=" margin-left: 60px; font-weight: bold; margin-top: 30px;"> 
+        <h3 style="margin-bottom: 20px;">Booking instructions</h3>
         <p> 1. Hair must be washed  before arriving at your appointment.
         </p>
         <p>
@@ -76,7 +77,7 @@
 
         </p>
         <p>
-            4. Feel free to bring your laptop or silent object to keep you busy until it doesn’t bother or work and the goal
+            4. Feel free to bring your laptop or silent object to keep you busy until it doesn’t bother the goal achieve our work
 
         </p>
     </div>
@@ -185,6 +186,8 @@
           
         // //     window.alert("Thank you " + firstName + " for booking with " + stylist + "... A confirmation Email has been sent to: " + emailAdress);
         // //   } -->
+    
+
     <script>
         const firstName = document.getElementById('firstname');
         const emailAdress = document.getElementById('emailAd');
@@ -195,18 +198,10 @@
 
         function displayMsg() {
             window.alert(
-                // "Thank you " +
-                // firstName.value +
-                // " for booking with " +
-                // stylist.text +
-                // " A confirmation Email has been sent to: " +
-                // emailAdress.value
-
-                "Thank you" +firstName.value+ "for booking an appointment for " + selService.text + " with " + stylist.text + "on " + pickedDate.value + "A confirmation Email has been sent to: " +
-                emailAdress.value+ "We look forward to seeing you! The Kays Beauty"
+                "Thank you " + firstName.value + " for booking an appointment for " + selService[selService.selectedIndex].text + " with " + stylist[stylist.selectedIndex].text + " on " + pickedDate.value + ". A confirmation email has been sent to: " +
+                emailAdress.value + ". We look forward to seeing you! The Kays Beauty"
             );
         }
-
         button.addEventListener('click', displayMsg);
     </script>
 
